@@ -1,0 +1,73 @@
+
+.main{
+    background-color: #E7E7E7;
+    margin-left: 280px;
+    width: calc(100% - 280px);
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    border-top-left-radius: 10px;
+    padding: 20px; /* Add some padding for spacing from the edges */
+    position: fixed;
+    
+}
+.add-product{
+    background-color: #E7E7E7;
+    display: flex;
+    padding: 10px;
+    padding-right: 15px;
+    justify-content: space-between;
+    gap: 25px;  
+
+
+}
+
+  
+  .image-upload {
+    flex: 1;
+    padding: 30px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-upload input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .product-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #F5F5F5;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,11 +1,11 @@
 import AddProduct from './AddProduct';
-import './App.css';
+import './Dashboard.css';
 import Navbardash from './Navbardash';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 
-function App() {
+function Dashboard() {
   return (
-    <div className="App">
+    <div className="dash">
       <Navbardash/>
       <Sidebar />
       <AddProduct/>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;
